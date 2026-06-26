@@ -1,11 +1,21 @@
-# [논문 제목]
+---
+layout: page
+title: 리뷰 템플릿
+parent: 논문 리뷰
+nav_order: 1
+permalink: /papers/template/
+---
 
-!!! info "메타데이터"
-    - **저자**: 
-    - **소속**: 
-    - **발표**: (예: arXiv 2024, CoRL 2024 등)
-    - **링크**: [arXiv](https://arxiv.org/abs/xxxx.xxxxx) · [코드](https://github.com/) · [프로젝트 페이지](https://)
-    - **발표일 / 발표자**: 
+# [논문 제목]
+{:.no_toc}
+
+## 메타데이터
+
+- **저자**:
+- **소속**:
+- **발표**: (예: arXiv 2024, CoRL 2024 등)
+- **링크**: [arXiv](https://arxiv.org/abs/xxxx.xxxxx) &middot; [코드](https://github.com/) &middot; [프로젝트 페이지](https://)
+- **발표일 / 발표자**:
 
 ## 한 줄 요약
 
@@ -20,7 +30,7 @@
 핵심 아이디어와 모델/알고리즘 구조를 정리합니다. 다이어그램이 있다면 캡처해서 첨부하세요.
 
 ```
-docs/papers/assets/<paper-name>/ 아래에 이미지를 넣고
+papers/assets/<paper-name>/ 아래에 이미지를 넣고
 ![설명](assets/<paper-name>/figure1.png) 형식으로 참조하세요.
 ```
 

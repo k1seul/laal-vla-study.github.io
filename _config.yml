@@ -1,0 +1,63 @@
+# Site settings
+title: LAAL VLA Study
+tagline: Vision-Language-Action(VLA) 논문 스터디
+description: VLA(Vision-Language-Action) 모델 논문을 함께 읽고 정리하는 스터디 사이트
+author: LAAL
+baseurl: '/laal-vla-study.github.io' # the subpath of your site, e.g. /blog
+url: 'https://k1seul.github.io' # the base hostname & protocol for your site
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+
+# Theme settings (Just the Class, built on Just the Docs)
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+aux_links:
+  GitHub repo:
+    - 'https://github.com/k1seul/laal-vla-study.github.io'
+footer_content:
+
+# Collections for site data
+collections:
+  staffers:
+  modules:
+  schedules:
+  announcements:
+# Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      height: 300
+      subpath: '/assets/images/'
+      width: 300
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+liquid:
+  error_mode: strict
+  strict_filters: true

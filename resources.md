@@ -1,3 +1,10 @@
+---
+layout: page
+title: 참고 자료
+description: VLA 관련 참고 자료 모음.
+nav_order: 6
+---
+
 # 참고 자료
 
 ## 핵심 논문
