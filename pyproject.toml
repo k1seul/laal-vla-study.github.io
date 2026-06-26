@@ -1,0 +1,10 @@
+[project]
+name = "vla-study"
+version = "0.1.0"
+description = "LAAL VLA(Vision-Language-Action) 논문 스터디 사이트"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-glightbox>=0.5.2",
+    "mkdocs-material>=9.7.6",
+]
